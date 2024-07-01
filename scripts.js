@@ -61,12 +61,3 @@ function displayData(data, containerId) {
     }
 }
 
-// URLs of the APIs to fetch data from
-const apiUrls = [
-    { url: 'https://api.thecatapi.com/v1/images/search?limit=10', containerId: 'api1' },
-    { url: 'https://dog.ceo/api/breeds/image/random/10', containerId: 'api2' },
-    { url: 'https://official-joke-api.appspot.com/jokes/programming/ten', containerId: 'api3' }
-];
-
-// Fetch data from each API
-apiUrls.forEach(api => fetchData(api.url, api.containerId));

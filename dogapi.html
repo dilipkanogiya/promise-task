@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAT - API Data Display</title>
+    <title>Dog | API Data Display</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center my-4">Cat API Data Fetching with Promises</h1>
-        <div id="api1" class="mb-5">
+        <h1 class="text-center my-4">Dog - API Data Fetching with Promises</h1>
+        <div id="api2" class="mb-5">
             <div class="row data-container"></div>
         </div>
     </div>
@@ -19,7 +19,7 @@
     <script>
         // URLs of the APIs to fetch data from
         const apiUrls = [
-            { url: 'https://api.thecatapi.com/v1/images/search?limit=10', containerId: 'api1' },
+            { url: 'https://dog.ceo/api/breeds/image/random/10', containerId: 'api2' },
         ];
 
         // Fetch data from each API
